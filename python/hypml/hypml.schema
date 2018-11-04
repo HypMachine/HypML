@@ -1,0 +1,66 @@
+### HypML: Hypothesis Markup Language Specification 0.1-draft
+
+type: object
+properties:
+  task:
+    type: string
+    enum:
+      - classification
+    maxItems: 1
+    
+  meta:
+    type: object
+    properties:
+      author:
+        type: string 
+      date:
+        type: integer
+      description:
+        type: string
+      version:
+        type: number
+      title:
+        type: string
+    addtionalProperties: false
+    required:
+      - title
+      
+  target:
+    type: object
+    additionalProperties:
+      type: integer
+    minProperties: 2
+    maxProperties: 2
+    
+  features:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        type:
+          type: string
+          enum:
+            - integer
+            - float
+            - bool
+            - string
+            - text
+      required:
+        - type
+    minProperties: 1
+
+  metrics:
+    type: object
+    additionalProperties:
+      type: object
+      properties:
+        min:
+          type: number
+        max:
+          type: number
+    minProperties: 1
+          
+required:
+  - task
+  - features
+  - target
