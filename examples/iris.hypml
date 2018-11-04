@@ -1,0 +1,30 @@
+### This is a HypML document. See hypmachine.github.io/hypml for info.
+
+meta:
+  title: Iris Classification
+  author: blairhudson
+  date: 20181104
+  version: 1
+  description: Predicting flower type based on its measurements.
+
+task: classification
+
+target:
+  Setosa: 1
+  Other: 0
+    
+features:
+  sepal-width:
+    type: float
+  sepal-length:
+    type: float
+  petal-width:
+    type: float
+  petal-length:
+    type: float
+        
+metrics:
+  accuracy:
+    min: 0.8
+  auc:
+    min: 0.7
