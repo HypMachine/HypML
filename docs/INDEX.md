@@ -2,6 +2,8 @@
 
 HypML is an open standard for specifying a machine learning task (a *hyp*othesis). Using a .hypml document, you can separate the tasks of algorithmic design and implementation.
 
+You can read more about the project [here](../README.md).
+
 ## Basic Structure
 
 HypML has three required sections:
