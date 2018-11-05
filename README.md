@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/hypml.svg)](https://badge.fury.io/py/hypml) [![PyPI download total](https://img.shields.io/pypi/dm/hypml.svg)](https://pypi.python.org/pypi/hypml/)  [![PyPI pyversions](https://img.shields.io/pypi/v/hypml.svg)](https://pypi.python.org/pypi/ansicolortags/) [![GitHub release](https://img.shields.io/github/tag/HypMachine/HypML.svg)](https://GitHub.com/HypMachine/HypML/tags/) [![GitHub license](https://img.shields.io/github/license/HypMachine/HypML.svg)](https://github.com/HypMachine/HypML/blob/master/LICENSE) 
+[![PyPI version](https://badge.fury.io/py/hypml.svg)](https://badge.fury.io/py/hypml) [![PyPI download total](https://img.shields.io/pypi/dm/hypml.svg)](https://pypi.python.org/pypi/hypml/)  [![PyPI pyversions](https://img.shields.io/pypi/v/hypml.svg)](https://pypi.python.org/pypi/hypml/) [![GitHub release](https://img.shields.io/github/tag/HypMachine/HypML.svg)](https://GitHub.com/HypMachine/HypML/tags/) [![GitHub license](https://img.shields.io/github/license/HypMachine/HypML.svg)](https://github.com/HypMachine/HypML/blob/master/LICENSE) 
 
 # HypML: Hypothesis Markup Language
 
