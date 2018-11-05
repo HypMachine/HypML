@@ -17,7 +17,7 @@ Check out these examples:
 
 ## How do I write a .hypml file?
 
-Further documentation about the structure and options available when writing a .hypml is available [here](https://github.com/HypMachine/HypML/tree/master/docs)!
+Further documentation about the structure and options available when writing a .hypml is available [here](docs/INDEX.md)!
 
 ## Working with .hypml files in Python
 
