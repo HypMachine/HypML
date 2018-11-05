@@ -23,9 +23,21 @@ Further documentation about the structure and options available when writing a .
 
 The `hypml` Python package is a utility for loading and validating .hypml files.
 
+### Installing from PyPi
+
+Releases are tracked [here](https://github.com/HypMachine/HypML/releases).
+
+You can install the latest release using the following command:
+
+	pip install --upgrade hypml
+
+Or you can install a specific release by specifying the version number:
+
+	pip install hypml==0.0.2
+
 ### Installing from GitHub
 
-While HypML is still under development, you can install it directly using the following command:
+While HypML is still under development, you can install the latest commit directly using the following command:
 
 	pip install git+https://github.com/HypMachine/HypML.git#subdirectory=python
 
@@ -35,11 +47,14 @@ You can view a Jupyter notebook demonstrating basic usage of `hypml` [here](http
 
 ## Working with .hypml files in JavaScript
 
-Coming soon!
-
+Coming soon! This will allow you to validate a HypML document in a browser.
 
 ## Contributing
 
 As an open specification, as you work with HypML you can [raise an issue](https://github.com/HypMachine/HypML/issues) to detail any feature requests or report a bug.
 
 If you would like to extend HypML yourself, you can [submit a pull request](https://github.com/HypMachine/HypML/pulls) with your proposed changes for review.
+
+## License
+
+You can view the HypML license [here](LICENSE).
