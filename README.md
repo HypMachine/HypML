@@ -8,16 +8,16 @@ A `.hypml` specifies all of the things you need to know about a machine learning
 
 ## What does a .hypml file look like?
 
-HypML is a human-readable plain-text file, which is based on  [YAML](https://en.wikipedia.org/wiki/YAML)with a strict set of validation rules to keep the correct format.
+HypML is a human-readable plain-text file, which is based on  [YAML](https://en.wikipedia.org/wiki/YAML) with a strict set of validation rules to keep the correct format.
 
 Check out these examples:
 
 * Iris classifier: [iris.hypml](https://github.com/HypMachine/HypML/blob/master/examples/iris.hypml)
+* More to come!
 
 ## How do I write a .hypml file?
 
-Further documentation about the structure and options available of .hypml is coming soon!
-
+Further documentation about the structure and options available when writing a .hypml is available [here](https://github.com/HypMachine/HypML/tree/master/docs)!
 
 ## Working with .hypml files in Python
 
