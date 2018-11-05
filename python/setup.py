@@ -1,8 +1,9 @@
-from distutils.core import setup
+from setuptools import setup
+
 setup(
   name = 'hypml',
   packages = ['hypml'],
-  version = '0.0.1',
+  version = '0.0.2',
   description = 'A utility for loading valid Hypothesis Markup Language (.hypml) documents.',
   author = 'Blair Hudson',
   author_email = 'blairhudson@me.com',
@@ -10,4 +11,5 @@ setup(
   download_url = '',
   keywords = ['data', 'machine', 'learning', 'science', 'algorithm', 'hypml'],
   classifiers = [],
+  include_package_data=True
 )
